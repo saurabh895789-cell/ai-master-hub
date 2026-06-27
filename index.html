@@ -200,6 +200,16 @@ Hamara goal hai AI ko sabke liye aasaan banana.
 <footer>
 <p>© 2026 AI Master Hub | Made with ❤️ by Saurabh</p>
 </footer>
+<script>
+function searchTools() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let cards = document.querySelectorAll(".tool-card");
 
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();
+    card.style.display = text.includes(input) ? "block" : "none";
+  });
+}
+</script>
 </body>
 </html>
