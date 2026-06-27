@@ -1,28 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Master Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Master Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+}
+
+header{
+background:#0d6efd;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#083b8a;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(135deg,#0d6efd,#00bcd4);
+color:white;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.btn{
+background:white;
+color:#0d6efd;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+}
+
+.tools{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+  .card h3{
+color:#0d6efd;
+margin-bottom:10px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+@media(max-width:600px){
+.hero h1{
+font-size:28px;
+}
+}
+</style>
 </head>
-<body style="font-family: Arial, sans-serif; background:#f5f5f5; text-align:center; padding:40px;">
 
-<h1>🤖 AI Master Hub</h1>
+<body>
 
-<h2>Welcome!</h2>
+<header>
+<h2>AI Master Hub</h2>
+</header>
 
-<p>Free AI Tools, AI Tutorials aur Tech Tips ke liye aapka swagat hai.</p>
+<nav>
+<a href="#">Home</a>
+<a href="#">AI Tools</a>
+<a href="#">Tutorials</a>
+<a href="#">Contact</a>
+</nav>
 
-<h3>Popular AI Tools</h3>
+<div class="hero">
+<h1>Learn AI for Free</h1>
+<p>Best Free AI Tools, Tutorials aur Tech Tips ek hi jagah.</p>
+<a class="btn" href="#">Explore Now</a>
+</div>
 
-<ul style="display:inline-block; text-align:left;">
-  <li>ChatGPT</li>
-  <li>Google Gemini</li>
-  <li>Microsoft Copilot</li>
-  <li>Canva AI</li>
-</ul>
+<section>
+<h2 style="text-align:center;margin-bottom:30px;">Popular AI Tools</h2>
 
-<p>© 2026 AI Master Hub</p>
+<div class="tools">
+
+<div class="card">
+<h3>ChatGPT</h3>
+<p>Writing, Coding aur Learning ke liye powerful AI assistant.</p>
+</div>
+
+<div class="card">
+<h3>Google Gemini</h3>
+<p>Google ka advanced AI assistant.</p>
+</div>
+
+<div class="card">
+<h3>Microsoft Copilot</h3>
+<p>Productivity aur coding mein madad karta hai.</p>
+</div>
+<div class="card">
+<h3>Canva AI</h3>
+<p>AI ki madad se design, presentation aur social media graphics banaye.</p>
+</div>
+
+<div class="card">
+<h3>DeepSeek AI</h3>
+<p>Free AI assistant jo coding aur learning mein madad karta hai.</p>
+</div>
+
+</div>
+</section>
+
+<section style="background:#ffffff;">
+<h2 style="text-align:center;">About AI Master Hub</h2>
+<p style="text-align:center;max-width:700px;margin:20px auto;">
+AI Master Hub ek free website hai jahan aapko AI Tools, AI Tutorials aur Tech Tips milte hain.
+Hamara goal hai AI ko sabke liye aasaan banana.
+</p>
+</section>
+
+<footer>
+<p>© 2026 AI Master Hub | Made with ❤️ by Saurabh</p>
+</footer>
 
 </body>
 </html>
