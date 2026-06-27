@@ -145,6 +145,27 @@ footer{
     text-align:center;
     padding:20px;
 }
+    .dark{
+    background:#121212;
+    color:white;
+}
+
+.dark header{
+    background:#000;
+}
+
+.dark nav{
+    background:#111;
+}
+
+.dark .tool-card{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark .hero{
+    background:linear-gradient(90deg,#111,#333);
+}
 </style>
 <header>
     <h1>AI Master Hub</h1>
@@ -156,7 +177,11 @@ footer{
     <a href="#">Tutorials</a>
     <a href="#">Contact</a>
 </nav>
-
+<div style="text-align:center; margin:20px;">
+    <button onclick="toggleDarkMode()" class="cat-btn">
+        🌙 Dark Mode
+    </button>
+</div>
 <div class="search-box">
     <input
         type="text"
@@ -248,6 +273,8 @@ function filterCategory(category) {
         }
 
     });
+}function toggleDarkMode(){
+    document.body.classList.toggle("dark");
 }
 </script>
 
