@@ -229,5 +229,18 @@ function searchTools() {
   });
 }
 </script>
+  <script>
+function filterCategory(category){
+  let cards=document.querySelectorAll(".tool-card");
+
+  cards.forEach(card=>{
+   if (category == "all" || card.classList.contains(category)) { {
+      card.style.display="block";
+    }else{
+      card.style.display="none";
+    }
+  });
+}
+</script>
 </body>
 </html>
